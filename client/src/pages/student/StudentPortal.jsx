@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import { api } from '../../api/client'
 import { useAuth } from '../../context/AuthContext'
-import { Badge, gradeColor, gradeBarColor, Spinner } from '../../components/ui'
+import { Badge, gradeColor, gradeBarColor, Spinner } from '../../components/UI'
 
 /* ── Student Layout ───────────────────────────────────── */
 function StudentLayout({ children }) {

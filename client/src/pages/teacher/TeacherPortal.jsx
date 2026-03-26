@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import { api } from '../../api/client'
 import { useAuth } from '../../context/AuthContext'
-import { Badge, Button, Modal, FormField, Input, Select, Table, Tr, Td, gradeColor, gradeBarColor, ErrorAlert, Spinner } from '../../components/ui'
+import { Badge, Button, Modal, FormField, Input, Select, Table, Tr, Td, gradeColor, gradeBarColor, ErrorAlert, Spinner } from '../../components/UI'
 
 /* ── Teacher Layout ───────────────────────────────────── */
 function TeacherLayout({ children }) {

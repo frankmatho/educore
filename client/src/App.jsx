@@ -5,7 +5,7 @@ import ProtectedRoute from './components/ProtectedRoute'
 import Login from './pages/Login'
 
 // Admin
-import AdminDashboard from './pages/admin/AdminDashboard'
+import AdminDashboard from './pages/admin/AdminDashBoard'
 import AdminStudents  from './pages/admin/AdminStudents'
 import { AdminTeachers, AdminClasses, AdminGrades } from './pages/admin/AdminPages'
 

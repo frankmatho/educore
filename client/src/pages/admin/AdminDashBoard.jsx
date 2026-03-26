@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { api } from '../../api/client'
 import AdminLayout from './AdminLayout'
-import { Badge, Avatar, gradeColor, Spinner } from '../../components/ui'
+import { Badge, Avatar, gradeColor, Spinner } from '../../components/UI'
 
 export default function AdminDashboard() {
   const [data,    setData]    = useState({ students: [], teachers: [], classes: [], grades: [] })
